@@ -59,10 +59,7 @@ bool isSafe(int processes[], int avail[], int maxm[][R],
 				// Check if for all resources of 
 				// current P need is less 
 				// than work 
-				int j; 
-				for (j = 0; j < R; j++) 
-					if (need[p][j] > work[j]) 
-						break; 
+				
 
 				// If all needs of p were satisfied. 
 				if (j == R) 
@@ -133,3 +130,4 @@ int main()
 } 
 
 // Code by 
+// Aman suryawanshi
